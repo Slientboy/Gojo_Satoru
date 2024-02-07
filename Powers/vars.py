@@ -96,7 +96,7 @@ class Development:
     DEV_USERS = []
     SUDO_USERS = []
     WHITELIST_USERS = []
-    DB_URI = ""  # Your mongo DB URI
+    DB_URI = "mongodb+srv://happykira4500:papajee1-1@cluster0.vdvdkly.mongodb.net/?retryWrites=true&w=majority"  # Your mongo DB URI
     DB_NAME = ""  # Your DB name
     NO_LOAD = []
  #   GENIUS_API_TOKEN = ""
