@@ -66,7 +66,7 @@ class Config:
         ).split(None)
     ]
     GENIUS_API_TOKEN = config("GENIUS_API",default=None)
-    AuDD_API = config("AuDD_API",default=None)
+    AuDD_API = "c650cc651432caab4dc63d6b2c912406"
     RMBG_API = config("RMBG_API",default=None)
     DB_URI = "mongodb+srv://elianaapi:pranav8935@cluster0.gf5ky.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     DB_NAME =  "elianaapi"
