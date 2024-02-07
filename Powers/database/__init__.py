@@ -5,11 +5,8 @@ from pymongo.errors import PyMongoError
 
 from Powers import DB_NAME, DB_URI, LOGGER
 
-try:
     Powers_db_client = MongoClient(DB_URI)
-except PyMongoError as f:
-    LOGGER.error(f"Error in Mongodb: {f}")
-    exiter(1)
+
 Powers_main_db = Powers_db_client[DB_NAME]
 
 
