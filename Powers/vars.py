@@ -39,11 +39,11 @@ class Config:
     """Config class for variables."""
 
     LOGGER = True
-    BOT_TOKEN = config("BOT_TOKEN", "6956874781:AAGzsdSn3rSahmDx5hxlu9N6SvEFycubg_8")
-    API_ID = int(config("API_ID", "2568615"))
-    API_HASH = config("API_HASH", "1e62cca9207a4469ca847526acebb660")
-    OWNER_ID = int(config("OWNER_ID", "1194169408"))
-    MESSAGE_DUMP = int(config("1001251337410"))
+    BOT_TOKEN =  "6956874781:AAGzsdSn3rSahmDx5hxlu9N6SvEFycubg_8"
+    API_ID = int("2568615")
+    API_HASH = "1e62cca9207a4469ca847526acebb660"
+    OWNER_ID = int("1194169408"))
+    MESSAGE_DUMP = int("1001251337410")
     DEV_USERS = [
         int(i)
         for i in config(
@@ -68,8 +68,8 @@ class Config:
     GENIUS_API_TOKEN = config("GENIUS_API",default=None)
     AuDD_API = config("AuDD_API",default=None)
     RMBG_API = config("RMBG_API",default=None)
-    DB_URI = config("DB_URI", default="mongodb+srv://elianaapi:pranav8935@cluster0.gf5ky.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-    DB_NAME = config("DB_NAME", default="elianaapi")
+    DB_URI = "mongodb+srv://elianaapi:pranav8935@cluster0.gf5ky.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    DB_NAME =  "elianaapi"
     BDB_URI = config("BDB_URI",default=None)
     NO_LOAD = config("NO_LOAD", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
