@@ -97,7 +97,7 @@ class Development:
     SUDO_USERS = []
     WHITELIST_USERS = []
     DB_URI = "mongodb+srv://happykira4500:papajee1-1@cluster0.vdvdkly.mongodb.net/?retryWrites=true&w=majority"  # Your mongo DB URI
-    DB_NAME = ""  # Your DB name
+    DB_NAME = "happykira4500"  # Your DB name
     NO_LOAD = []
  #   GENIUS_API_TOKEN = ""
 #    RMBG_API = ""
