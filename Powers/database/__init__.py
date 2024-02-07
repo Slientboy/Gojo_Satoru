@@ -5,7 +5,7 @@ from pymongo.errors import PyMongoError
 
 from Powers import DB_NAME, DB_URI, LOGGER
 
-    Powers_db_client = MongoClient(DB_URI)
+    Powers_db_client = MongoClient("DB_URI")
 
 Powers_main_db = Powers_db_client[DB_NAME]
 
