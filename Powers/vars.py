@@ -99,8 +99,8 @@ class Development:
     DB_URI = ""  # Your mongo DB URI
     DB_NAME = ""  # Your DB name
     NO_LOAD = []
-    GENIUS_API_TOKEN = ""
-    RMBG_API = ""
+ #   GENIUS_API_TOKEN = ""
+#    RMBG_API = ""
     PREFIX_HANDLER = ["!", "/","$"]
     SUPPORT_GROUP = "SUPPORT_GROUP"
     SUPPORT_CHANNEL = "SUPPORT_CHANNEL"
