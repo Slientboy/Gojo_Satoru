@@ -42,7 +42,7 @@ class Config:
     BOT_TOKEN =  "6956874781:AAGzsdSn3rSahmDx5hxlu9N6SvEFycubg_8"
     API_ID = int("2568615")
     API_HASH = "1e62cca9207a4469ca847526acebb660"
-    OWNER_ID = int("1194169408"))
+    OWNER_ID = int("1194169408")
     MESSAGE_DUMP = int("1001251337410")
     DEV_USERS = [
         int(i)
