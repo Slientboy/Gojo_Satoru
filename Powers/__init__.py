@@ -77,7 +77,7 @@ LOGGER.info(f"Owner: {str(Config.OWNER_ID)}")
 LOGGER.info(f"Time zone set to {Config.TIME_ZONE}")
 LOGGER.info("Source Code: https://github.com/Gojo-Bots/Gojo_Satoru\n")
 LOGGER.info("Checking lyrics genius api...")
-
+"""
 # API based clients
 if Config.GENIUS_API_TOKEN:
     LOGGER.info("Found genius api token initialising client")
@@ -108,6 +108,7 @@ RMBG = None
 if Config.RMBG_API:
     is_rmbg = True
     RMBG = Config.RMBG_API
+    """
 # Account Related
 BOT_TOKEN = Config.BOT_TOKEN
 API_ID = Config.API_ID
